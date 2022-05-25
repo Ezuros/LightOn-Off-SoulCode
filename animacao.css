@@ -26,10 +26,15 @@ section {
 }
 
 .ligado {
-  content: url(./img/liagada.png);
+  content: url(./img/acesa.png);
 
 }
 
 .clarear {
   background-color: rgb(255, 255, 255);
+}
+
+button{
+  background-color: transparent;
+  border: 0cm;
 }
