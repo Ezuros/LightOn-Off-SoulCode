@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+#adicionar-remover {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.lampada {
+  max-height: 500px;
+  content: url(./img/apagada.png);
+
+}
+
+.ligado {
+  content: url(./img/liagada.png);
+
+}
+
+.clarear {
+  background-color: rgb(255, 255, 255);
+}
